@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
+
+html, body {
+    margin: 0;
+}
+
+/* Section 1, 4, 6 */
+
+.pg-bg {
+    width: 100%;
+    height: 99.5555vh;
+    opacity: 0.8;
+}
+
+.pg-2-bg {
+    opacity: 0.4;
+    height: 110vh;
+}
+
+/* Section 2 */
+
+.pg-1-circle {
+    width: 35%;
+    position: absolute;
+    right: 13%;
+    top: 16%;
+    opacity: 0.7;
+}
+
+.pg-1-rect {
+    text-align: left;
+    padding: 50px;
+    border: 20px solid #fff;
+    width: 49%;
+    height: 44%;
+    position: absolute;
+    left: 12%;
+    top: 17%;
+    color: #fff;
+}
+
+.pg-1-head {
+    margin: 0;
+    font-family: "Cardo";
+    font-style: italic;
+    font-size: 120px;
+    text-shadow: #000 10px 0 100px;
+    letter-spacing: 2rem;
+    padding-top: 30px;
+    line-height: 1;
+}
+
+.pg-1-text {
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: .2rem;
+}
+
+/* Section 3 */
+
+.feature {
+    position: absolute;
+    margin: auto 12%;
+    padding: 0;
+    align-items: center;
+}
+
+.feature-1 {
+    top: 110%;
+}
+
+.feature-2 {
+    top: 140%;
+}
+
+.feature-3 {
+    top: 170%;
+}
+
+.feature-image {
+    width: 22%;
+    height: 100%;
+    float: left;
+    background: rgb(68, 0, 255);
+    padding: 7px;
+    border: 1px solid #999;
+}
+
+.img-2 {
+    float: right;
+}
+
+.feature-head {
+    display: inline-block;
+    margin: 2% 29%;
+    color: rgb(32, 7, 255);
+    font-family: 'Cardo';
+}
+
+.head-1 {
+    margin: 2% 29% 2% 0;
+}
+
+.head-2 {
+    margin: 2% 0 2% 29%;
+    float: right;
+}
+
+.feature-text {
+    display: inline-block;
+    font-family: 'GlacialIndifferenceRegular';
+    margin: 0 13%;
+    width: 50%;
+    color: rgb(24, 131, 141);
+}
+
+
+
+/* Section 5 */
+
+.pg-3-head {
+    font-size: 7vh;
+    color: #fff;
+    position: absolute;
+    left: 12%;
+    bottom: -160%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pg-3-info {
+    font-size: 3vh;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    right: 5%;
+    bottom: -210%;
+}
+
+.info {
+    display: block;
+}
+
+.info-head {
+    text-decoration: underline;
+    font-size: 4vh;
+}
+
+.info-name {
+    font-weight: bold;
+}
+
+.main-info {
+    font-style: italic;
+}
